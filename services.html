@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amit K Gehlot - Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-banner">
+      <h1>Amit K Gehlot</h1>
+    </div>
+
+    <nav class="navbar">
+      <a href="index.html" class="nav-item">Home</a>
+      <a href="services.html" class="nav-item">Consultancy</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="container">
+
+    <!-- SECTION 2: STRATEGIC DESIGN -->
+    <section id="strategic-design" class="section">
+      <div class="hero-block">
+        <h2>Strategic Design for Manufacturing & Business Growth</h2>
+        <p class="subtitle">Empowering MSMEs and creative entrepreneurs through physical product innovation, craft integration, and expert mentorship.</p>
+      </div>
+
+      <!-- The Three Pillars (3-Column Layout) -->
+      <div class="grid-3-col">
+        <div class="card">
+          <img src="images/1.png" alt="Product Design" class="card-img">
+          <div class="card-text">
+            <h3>Product Design</h3>
+            <p>Transforming ideas into manufacturable physical products.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/2.png" alt="MSME Design Clinics" class="card-img">
+          <div class="card-text">
+            <h3>MSME Consultency</h3>
+            <p>Solving production challenges and upgrading product lines for market readiness.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/3.png" alt="Entrepreneur Mentoring" class="card-img">
+          <div class="card-text">
+            <h3>Entrepreneur Mentoring</h3>
+            <p>Guiding creative startups from concept viability to intellectual property registration.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-container">
+        <a href="#contact" class="cta-button">Book a Consultation</a>
+      </div>
+    </section>
+
+    <!-- SECTION 6: CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h2>Let’s build something tangible.</h2>
+        <p>Reach out to discuss your manufacturing challenges or mentorship needs.</p>
+      </div>
+
+      <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Contact Details</h3>
+          <p><strong>Email:</strong> amitgehlot@gmail.com</p>
+          <p><strong>Phone:</strong> 8109004922</p>
+          <p><strong>Location:</strong> Bhopal, Madhya Pradesh, India</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amit-kumar-gehlot/">Amit Kumar Gehlot</a></p>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Form submitted!');">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="business">Business Name / Stage</label>
+            <input type="text" id="business" placeholder="Business details" required>
+          </div>
+          <div class="form-group">
+            <label for="message">What are you looking to achieve?</label>
+            <textarea id="message" rows="4" placeholder="Brief description..." required></textarea>
+          </div>
+          <button type="submit" class="submit-button">Submit</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
